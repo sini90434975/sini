@@ -1,0 +1,121 @@
+
+/*ここからヘッダー部分*/
+head {
+  background-size: cover;
+  position: fixed;
+}
+
+.header {
+  background-color:#003399;
+  font-family: "Sylfaen";
+  height: 120px;
+
+}
+
+.header-logo {
+  font-size:100px;
+  color:#33ccff;
+  padding-left: 30px;
+  float:left;
+}
+
+.header-list li{
+  list-style:none;
+  color:#33ccff;
+  float: right;
+  padding:60px 20px;
+}
+
+p {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 40px;
+}
+
+/*ここからボディ部分*/
+body {
+  background-image: url(013-DSC_3266.jpg);
+}
+
+.main {
+  font-family: "Sylfaen";
+}
+
+.main h1,p {
+  padding-left: 20px;
+}
+
+.main h1 span {
+  color: #3b5998;
+}
+
+.main-wrapper {
+  background-color: white;
+  opacity : 0.8;
+}
+
+/*ここからフッター部分*/
+footer {
+  background-color: #003399;
+  font-family: "Sylfaen";
+  height: cover;
+  width:auto;
+  font-weight: normal;
+}
+
+.footer-logo {
+  font-size: 60px;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: white;
+}
+
+.footer-list {
+  padding-left: 20px;
+  color: white;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+/*Twitterのアイコン部分*/
+.btn {
+  color: white;
+  font-weight: normal;
+}
+
+.btn-wrapper {
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+}
+
+.btn-wrapper:hover {
+  opacity: 1;
+}
+
+.twitter:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+
+.twitter {
+  background-color: #55acee;
+  width: 80px;
+  float: left;
+  box-shadow: 3px 5px #000000;
+}
+
+/*メディアクエリ*/
+.media (max-width: 1000px) {
+
+}
+
+.media (max-width: 670px) {
+
+}
